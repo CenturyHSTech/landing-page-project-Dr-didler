@@ -1,0 +1,81 @@
+
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+figcaption{
+    color: #00303F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+nav ul{
+    margin: 0px;
+    padding: 1em;
+    display: flex;
+    list-style-type: none;
+}
+nav{
+    color: #00303F;
+    background-color: azure;
+    margin: 0px;
+    padding: 4px;
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 1em 0.5em;
+    border: 1px solid;
+    background-color: #E0E0FF;
+}
+nav a:hover{
+    color: #00303F;
+    background-color: azure;
+}
+figcaption a{
+    color: #00303F;
+    text-decoration: none;
+}
+figure{
+    padding: 10px;
+    border-width: 50px;
+    border: 2px solid #E0E0FF; 
+    border-radius: 1%;
+    width: 300px;
+    margin: 14;
+    box-sizing: border-box;
+    float: left;
+    background-color: #E0E0FF;
+
+
+
+
+}
+body{
+    background-color: #E0E0FF;
+
+}
+figure img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+h1{
+    color: #00303F;
+}
+main{
+    flex-flow: row;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+    color: #00303F;
+}
+footer,p{
+    clear: both;
+    color: #00303F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
